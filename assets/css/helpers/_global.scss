@@ -1,0 +1,111 @@
+// Body Global Style
+body{
+  overflow: hidden;
+  overflow-y: scroll;
+}
+// == Scroll Style
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(245 , 245 , 245);
+  border-radius: 0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(215 , 215 , 215);
+}
+// ====================================
+// Fonts & Sizes
+body{
+  font-family: Poppins, Helvetica, sans-serif;
+}
+
+h6 , body {
+  font-size: 14px;
+}
+
+h1{
+  font-size: 70px;
+}
+h2{
+  font-size: 30px;
+}
+h3{
+  font-size: 24px;
+}
+h4{
+  font-size: 21px;
+}
+h5{
+  font-size: 18px;
+}
+h1 , h2 , h3 , h4 , h5 , h6{
+  font-weight:600;
+}
+h1 , h2 , h3 , h4 , h5 , h6 , a , span , p , ul , li {
+  margin-bottom: 0;
+  line-height: 1.9;
+}
+
+// colors
+.main_color_dark1{
+  color:#333;
+}
+.main_color_dark2{
+  color:#666;
+}
+.main_color_dark3{
+  color:#888;
+}
+
+// Lines
+.title_line:after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #0099e5;
+}
+
+// Backgrounds
+.background_img_edit{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+// Spaces
+.compontent_margin_bottom_large{
+  margin-bottom: 40px;
+}
+.compontent_margin_bottom_normal{
+  margin-bottom: 20px;
+}
+.compontent_margin_bottom_small{
+  margin-bottom: 10px;
+}
+
+// Special Styles
+.button_style {
+  padding: 7px 15px;
+  border: 2px solid $main_color;
+  background: white;
+  color: $main_color;
+  cursor: pointer;
+}
+.button_style:hover , .button_style:active , .mixitup-control-active {
+  border: 2px solid white;
+  background: $main_color;
+  color: white;
+  transition: .5s ease;
+}

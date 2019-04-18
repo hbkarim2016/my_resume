@@ -1,0 +1,19 @@
+// Variables
+@import "helpers/_variable.scss";
+// Global Style
+@import "helpers/_global.scss";
+// Preloader
+@import "includes/_preloader.scss";
+// Header
+@import "includes/_header.scss";
+// Content
+// All Sliders
+@import "Sliders/_all_sliders.scss";
+// == Slider Home
+@import "Sliders/_slider_home.scss";
+// == Slider About
+@import "Sliders/_slider_about.scss";
+// == Slider Resume
+@import "Sliders/_slider_resume.scss";
+// == Slider Portfolio
+@import "Sliders/_slider_portfolio.scss";
