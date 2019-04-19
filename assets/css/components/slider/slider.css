@@ -173,7 +173,7 @@ span.bullet_span {
 
 #bullets li.active {
 	cursor: default;
-	border-left: 2px solid $main_color;
+	border-left: 2px solid #5fbec7;
   background: rgb(245,245,245);
 }
 
