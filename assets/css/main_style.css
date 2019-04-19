@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, a, span, p, ul, li {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #0099e5;
+  background-color: #5fbec7;
 }
 
 .background_img_edit {
@@ -99,19 +99,39 @@ h1, h2, h3, h4, h5, h6, a, span, p, ul, li {
   margin-bottom: 10px;
 }
 
+.move_left {
+  left: 0 !important;
+  transition: 0.5s ease;
+}
+
 .button_style {
   padding: 7px 15px;
-  border: 2px solid #3ea6ff;
+  border: 2px solid #5fbec7;
   background: white;
-  color: #3ea6ff;
+  color: #5fbec7;
   cursor: pointer;
 }
 
 .button_style:hover, .button_style:active, .mixitup-control-active {
   border: 2px solid white;
-  background: #3ea6ff;
+  background: #5fbec7;
   color: white;
   transition: 0.5s ease;
+}
+
+.menu_button {
+  padding: 5px 12px;
+  border: 2px solid #666;
+  background: white;
+  color: #666;
+  cursor: pointer;
+}
+
+.menu_button:hover, .menu_button:active {
+  border: 2px solid #666;
+  background: #666;
+  color: white;
+  cursor: pointer;
 }
 
 #section-navigation {
@@ -317,13 +337,16 @@ h1, h2, h3, h4, h5, h6, a, span, p, ul, li {
   font-size: 25px;
 }
 
+.page3 .title_experience h6 {
+  color: black !important;
+}
 .page3 .development_skills .progress, .page3 .design_skills .progress {
   background-color: #f5f5f5;
   border: 1px solid whitesmoke;
-  box-shadow: 0 0 1px 1px #3ea6ff;
+  box-shadow: 0 0 1px 1px #5fbec7;
 }
 .page3 .development_skills .progress .progress-bar, .page3 .design_skills .progress .progress-bar {
-  background-color: #3ea6ff;
+  background-color: #5fbec7;
 }
 
 .page4 .container_mixitup .mix a {
@@ -345,7 +368,7 @@ h1, h2, h3, h4, h5, h6, a, span, p, ul, li {
   border: 5px solid #d7d7d7;
 }
 .page4 .container_mixitup .mix div .web_description {
-  background: #3ea6ff;
+  background: #5fbec7;
   color: white;
   height: 100px;
   border: 0;
@@ -371,6 +394,90 @@ h1, h2, h3, h4, h5, h6, a, span, p, ul, li {
 }
 .page4 .container_mixitup .mix .background_royate {
   background-image: url("../imgs/portfolio_section/royate.jpg");
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  body, h6 {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  .sideBar {
+    left: -190px;
+  }
+
+  #cubeTransition {
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  body, h6 {
+    font-size: 10px !important;
+  }
+
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  h3 {
+    font-size: 18px !important;
+  }
+
+  h4 {
+    font-size: 14px !important;
+  }
+
+  h5 {
+    font-size: 12px !important;
+  }
+
+  .menu_button {
+    padding: 3px 5px;
+    border: 1px solid #666;
+  }
+
+  .sideBar {
+    left: -190px;
+  }
+
+  #cubeTransition {
+    width: 100%;
+  }
+
+  .page1 .title_home {
+    top: 60vw;
+  }
+
+  .page2 .what_i_do i {
+    font-size: 14px;
+  }
+
+  .page2, .page3, .page4 {
+    padding: 20px;
+  }
 }
 
 /*# sourceMappingURL=main_style.css.map */

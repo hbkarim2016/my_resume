@@ -17,3 +17,8 @@
 @import "Sliders/_slider_resume.scss";
 // == Slider Portfolio
 @import "Sliders/_slider_portfolio.scss";
+// == responsive
+// 768 Screen
+@import "includes/responsives/_768_screen.scss";
+// 320 Screen
+@import "includes/responsives/_320_screen.scss";

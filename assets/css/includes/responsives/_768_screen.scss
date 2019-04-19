@@ -1,0 +1,29 @@
+@media (min-width: 768px) and (max-width: 1023px){
+  // Global Responsive Edit
+  body , h6{
+    font-size: 12px;
+  }
+  h1{
+    font-size: 45px;
+  }
+  h2{
+    font-size: 25px;
+  }
+  h3{
+    font-size: 21px;
+  }
+  h4{
+    font-size: 18px;
+  }
+  h5{
+    font-size: 14px;
+  }
+  // Side Bar
+  .sideBar{
+    left: -190px;
+  }
+  // Slider
+  #cubeTransition{
+    width: 100%;
+  }
+}
