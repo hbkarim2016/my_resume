@@ -408,6 +408,9 @@ h1, h2, h3, h4, h5, h6, a, span, p, ul, li {
 .page4 .container_mixitup .mix .background_royate {
   background-image: url("../imgs/portfolio_section/royate.jpg");
 }
+.page4 .container_mixitup .mix .background_coming_soon {
+  background-image: url("../imgs/portfolio_section/coming_soon.jpg");
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
   body, h6 {
