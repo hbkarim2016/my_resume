@@ -3,6 +3,10 @@ body{
   overflow: hidden;
   overflow-y: scroll;
 }
+body *::selection{
+  background-color:$main_color;
+  color:white;
+}
 // == Scroll Style
 /* width */
 ::-webkit-scrollbar {
