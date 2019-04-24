@@ -112,11 +112,21 @@ h1, h2, h3, h4, h5, h6, a, span, p, ul, li {
   cursor: pointer;
 }
 
+.button_style a{
+  color: #5fbec7;
+  text-decoration:none;
+}
+
 .button_style:hover, .button_style:active, .mixitup-control-active {
   border: 2px solid white;
   background: #5fbec7;
   color: white;
   transition: 0.5s ease;
+}
+
+.button_style:hover a, .button_style:active a{
+  color:white;
+  text-decoration:none;
 }
 
 .menu_button {
