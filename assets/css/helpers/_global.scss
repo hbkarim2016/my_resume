@@ -106,12 +106,20 @@ h1 , h2 , h3 , h4 , h5 , h6 , a , span , p , ul , li {
   background: white;
   color: $main_color;
   cursor: pointer;
+  a{
+    color:$main_color;
+    text-decoration:none;
+  }
 }
 .button_style:hover , .button_style:active , .mixitup-control-active {
   border: 2px solid white;
   background: $main_color;
   color: white;
   transition: .5s ease;
+  a{
+    color:white;
+    text-decoration:none;
+  }
 }
 
 .menu_button{
@@ -120,18 +128,10 @@ h1 , h2 , h3 , h4 , h5 , h6 , a , span , p , ul , li {
   background: white;
   color: #666;
   cursor: pointer;
-  a{
-    color:#666;
-    text-decoration:none;
-  }
 }
 .menu_button:hover , .menu_button:active{
   border: 2px solid #666;
   background: #666;
   color: white;
   cursor: pointer;
-  a{
-    color:#fff;
-    text-decoration:none;
-  }
 }
