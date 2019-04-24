@@ -2,7 +2,10 @@ body {
   overflow: hidden;
   overflow-y: scroll;
 }
-
+body *::selection {
+    background-color: #5fbec7;
+    color: white;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 2px;
