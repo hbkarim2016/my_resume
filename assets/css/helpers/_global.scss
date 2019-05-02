@@ -3,6 +3,9 @@ body{
   overflow: hidden;
   overflow-y: scroll;
 }
+a{
+  color:$main_color;
+}
 body *::selection{
   background-color:$main_color;
   color:white;
