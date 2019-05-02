@@ -2,6 +2,9 @@ body {
   overflow: hidden;
   overflow-y: scroll;
 }
+a{
+  color: #5fbec7;
+}
 body *::selection {
     background-color: #5fbec7;
     color: white;
