@@ -149,9 +149,12 @@ span.bullet_span {
 	margin: 5px;
 	background-color: whitesmoke;
 }
+.sideBar_footer ul li i{
+	color: #5fbec7;
+}
 .sideBar_footer ul li:hover {
 	color: white;
-	background-color: rgb(62, 166, 255);
+	background-color: #5fbec7;
 	cursor: pointer;
 }
 .sideBar_footer ul li:hover i{
