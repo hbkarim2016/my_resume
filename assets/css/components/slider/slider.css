@@ -154,6 +154,9 @@ span.bullet_span {
 	background-color: rgb(62, 166, 255);
 	cursor: pointer;
 }
+.sideBar_footer ul li:hover a{
+	color: white;
+}
 .sideBar_footer .copyright{
 	padding: 10px;
 }
